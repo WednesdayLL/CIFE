@@ -41,8 +41,6 @@ if __name__ == '__main__':
     parser.add_argument('--nhead', type=int, default=4)
     parser.add_argument('--dimFF', type=int, default=64)
     parser.add_argument('--epoch', type=int, default=20)
-    # parser.add_argument('--lr',type=float,default=0.0014)
-    # parser.add_argument('--lr', type=float, default=0.002)
     parser.add_argument('--lr', type=float, default=0.0015)
     parser.add_argument('--bs', type=int, default=16)
     parser.add_argument('--seed', type=int, default=8)

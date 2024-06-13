@@ -5,7 +5,7 @@ import numpy as np
 
 def main():
     cancers = ['PANCAN']
-    option = ['train', 'test','casual']
+    option = ['embedding','train', 'test','casual']
 
     for c in cancers:
         for op in option:
